@@ -1,0 +1,462 @@
+body {
+
+    width: 100%;
+    height: 2900px;
+    background-color: #e0e0e0;
+
+}
+
+
+
+#myBtn {
+
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #4172B4;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #3061A3;
+}
+
+.header {
+
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(source/img/Background2.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.row {
+
+    margin: auto;
+}
+
+.logo {
+
+    min-width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 210px;
+    padding-left: 20px;
+
+}
+
+.motto {
+
+    height: auto;
+    display: block;
+    margin: auto;
+    height: 150px;
+    padding-top: 3rem;
+}
+
+
+p1 {
+
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    padding-left: 1rem;
+    font-weight: 200;
+
+}
+
+p1:hover {
+
+    color: #4172B4;
+}
+
+
+p2 {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 5px #111111;
+    font-weight: 600;
+    position: static;
+    max-height: 150px;
+    display: block;
+    margin: auto;
+    /*     font-family: 'Nunito', sans-serif; */
+}
+
+
+
+/*@media (max-width : 992px){
+
+
+    p1 {
+
+        font-size: 18px;
+        color: #fff;
+    }
+    
+} */
+
+@media (max-width: 840px) {
+
+
+    p2 {
+
+        font-size: 25px;
+    }
+    
+
+}
+
+@media (max-width: 500px) {
+
+    #motto {
+
+        padding-top: 5px;
+        height: 30px;
+    }
+
+}
+
+
+p3 {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4172B4;
+    font-size: 25px;
+}
+
+
+
+
+p4 {
+
+    color: #fff;
+}
+
+
+.navbar {
+
+    min-height: 70px;
+
+}
+
+.navbar-nav {
+
+    /*  margin: auto; */
+}
+
+.container {
+
+    margin-right: 15px; 
+    width: auto;
+}
+
+.navbar-toggler {
+
+    background-color: #4172B4;
+
+}
+
+
+#section {
+
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url(source/img/christopher-burns.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    /* opacity: 0.6; */
+}
+
+
+
+
+
+#section1 {
+
+    width: 100%;
+    background-color: #022347;
+    transform:  linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-image: url(source/img/logo1c_270.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+#section2 {
+
+    width: 100%;
+    background-color: #133458;
+    background-image: url(source/img/logo1d_270.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 634.6px;
+    
+}
+
+#section3 {
+
+    width: 100%;
+    background-color: #022347;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+         url(source/img/street1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+
+
+.onas {
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.onas2 {
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+.plan_podzialu {
+
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    float:left;
+    display: block;
+    margin: auto;
+
+}
+
+.obecne {
+
+    min-height: 682.6px;
+    text-align: justify;
+}
+
+.zrealizowane {
+
+    min-height: 682.6px;
+}
+
+
+p5 {
+
+    color: #fff;
+    font-size: 30px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+p6 {
+
+    color: #fff;
+    font-size: 12px;
+
+}
+
+
+.przycisk1 {
+
+    color: #fff;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+
+.przycisk1:hover {
+
+    background-color: #3061A3;
+}
+
+.przycisk2 {
+
+    color: #fff;
+    max-width: 200px;
+    min-height: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 4rem;
+    text-align: center;
+
+    
+    
+}
+
+.przycisk2:hover {
+
+    background-color: #4172B4; 
+    text-shadow: 3px 3px 5px #111111;
+  
+
+}
+
+.przycisk3 {
+
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.przycisk3:hover {
+
+    background-color: #3061A3;
+}
+
+
+#article {
+
+    clear: both;
+    width: 100%;
+    height: 35%;
+    background-color: #fff;
+}
+
+
+footer {
+
+    width 100%;
+    min-height: 500px;
+}
+
+
+.stopka {
+
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#map {
+
+    width: 100%;
+    height: 300px;
+    
+}
+
+.kontakt {
+
+    float: left;
+    display: block;
+    margin: auto;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-align: inherit;
+
+
+}
+
+.dzial_handlowy {
+
+    float: left;
+    display: block;
+    margin: auto;
+
+}
+
+.gielda_sklep {
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+p7 {
+
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 20%;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+
+p7:hover {
+    
+   -webkit-transform: scale (1.4,1.4);
+    transform: scale(1.4,1.4);
+}
+
+
+
+
+
+
+p8 {
+    
+    color: #022347;
+    text-align: justify;
+}
+
+.btn2 {
+    
+    background-color: #4172B4;
+}
+
+.btn2:hover {
+    
+    background-color: #3061A3;
+}
+
+#sc1 {
+    
+    display:block;
+    margin:auto;
+    float:left;
+    width: auto;
+    text-align: center;
+}
+
+#sc2 {
+    
+    display:block;
+    margin:auto;
+    width: auto;
+    text-align: center;
+}
+
